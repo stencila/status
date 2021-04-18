@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-04-18T23:16:18.967Z</updated>
+    <updated>2021-04-18T23:36:15.644Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Cluster maintenance]]></title>
+        <id>https://status.stenci.la/incidents/083a237b</id>
+        <link href="https://status.stenci.la/incidents/083a237b"/>
+        <updated>2021-04-18T23:32:01.564Z</updated>
+        <content type="html"><![CDATA[<p>We are upgrading our Kubernetes cluster management tool, <a href="https://toolkit.fluxcd.io/" target="_blank" rel="noopener noreferrer" class="external">Flux</a> to v2. While not expected, there may be some instability during this process.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Database maintenance]]></title>
         <id>https://status.stenci.la/incidents/d5399762</id>
