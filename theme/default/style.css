@@ -1,0 +1,52 @@
+:root {
+  --grey-lighter: #f7fafc;
+  --grey-light: #e2e8f0;
+  --grey: #cbd5e0;
+  --grey-dark: #718096;
+  --grey-darker: #4a5568;
+  --grey-darkest: #2d3748;
+  --black: #4a4a4a;
+  --blue: #2568ef;
+  --green: #48bb78;
+  --red: #e53e3e;
+  --orange: #cf8415;
+  --yellow: #f6e05e;
+  --purple: #805ad5;
+  --font-family-sans-serif: "Lato", "sans-serif";
+  --font-family-mono: "IBM Plex Mono", "Fira Code", "monospace";
+}
+
+/* Visually hide the site text title, but keep it for screen readers */
+.header .title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.header .liveStatus {
+  flex: 1 1 0%;
+  text-align: right;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header .liveStatus a:link,
+.header .liveStatus a:visited {
+  color: #333333;
+  font-weight: bold;
+}
+
+.header .liveStatus a:hover,
+.header .liveStatus a:active {
+  color: #2568ef;
+}
+
+.incident {
+  overflow: auto;
+}

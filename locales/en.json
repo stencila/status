@@ -1,0 +1,44 @@
+{
+  "title": "Stencila Status",
+  "description": "Stencila's status reporting",
+  "systems": {
+    "items": {
+      "router": {
+        "title": "Router"
+      },
+      "manager": {
+        "title": "Manager"
+      },
+      "broker": {
+        "title": "Broker"
+      },
+      "overseer": {
+        "title": "Overseer"
+      },
+      "monitor": {
+        "title": "Monitor"
+      },
+      "workers": {
+        "title": "Workers"
+      },
+      "database": {
+        "title": "Database"
+      },
+      "storage": {
+        "title": "Storage"
+      },
+      "cache": {
+        "title": "Cache"
+      },
+      "us-ce-1": {
+        "title": "Cluster US-CE-1"
+      },
+      "us-ce-2": {
+        "title": "Cluster US-CE-2"
+      },
+      "us-nw-1": {
+        "title": "Cluster US-NW-1"
+      }
+    }
+  }
+}

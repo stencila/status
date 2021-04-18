@@ -1,0 +1,31 @@
+# Azure Pipelines config
+#
+# For migration guide see:
+#   https://docs.microsoft.com/en-us/azure/devops/pipelines/migrate/from-travis?view=azure-devops
+
+trigger:
+  - master
+
+jobs:
+  - job: site
+
+    pool:
+      vmImage: 'ubuntu-latest'
+
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '14.x'
+      displayName: 'Install Node.js'
+
+    - script: |
+        npm install
+        npm run generate
+        npx gh-pages --repo https://$(GITHUB_TOKEN)@github.com/stencila/gaia.git -d dist
+      env:
+        GIT_AUTHOR_NAME: Stencila CI Bot
+        GIT_AUTHOR_EMAIL: ci@stenci.la
+        GIT_COMMITTER_NAME: Stencila CI Bot
+        GIT_COMMITTER_EMAIL: ci@stenci.la
+      displayName: 'Build and deploy Statusfy page'
+
