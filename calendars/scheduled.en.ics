@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Statusfy//status.stenci.la//calendar//scheduled//EN
+NAME:Stencila Status
+X-WR-CALNAME:Stencila Status
+TIMEZONE-ID:UTC
+X-WR-TIMEZONE:UTC
+END:VCALENDAR
