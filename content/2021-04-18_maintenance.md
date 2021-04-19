@@ -11,9 +11,10 @@ affectedsystems:
   - workers
   - storage
   - cache
-resolved: false
+resolved: true
+modified: '2021-04-19T00:01:19.584Z'
 ---
 
-We are upgrading our Kubernetes cluster management tool, [Flux](https://toolkit.fluxcd.io/) to v2. While not expected, there may be some instability during this process.
+We are reconfiguring our Kubernetes cluster management tool, [Flux](https://toolkit.fluxcd.io/). While not expected, there may be some instability during this process.
 
 <!--- language code: en -->
