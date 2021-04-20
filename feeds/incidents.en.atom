@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-04-20T14:46:54.972Z</updated>
+    <updated>2021-04-20T21:49:56.325Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
@@ -12,8 +12,18 @@
         <id>https://status.stenci.la/incidents/0d06cd64</id>
         <link href="https://status.stenci.la/incidents/0d06cd64"/>
         <updated>2021-04-20T14:43:29.191Z</updated>
-        <content type="html"><![CDATA[<p>Under investigation.</p>
-<!--- language code: en -->
+        <content type="html"><![CDATA[<!--- language code: en -->
+<p>Creating a project Snapshot fails when attempting to pin the Docker container version.</p>
+<div class="update-block">
+          <div class="update-block-date">2021-04-20T21:32:36.549Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>The error stemmed from rotating all API tokens after the recent <a href="https://about.codecov.io/security-update/" target="_blank" rel="noopener noreferrer" class="external">CodeCov security incident</a>.
+After the tokens were regenerated, some of secrets were not updated in the deployed pods.</p>
+<p>This caused the Worker process to attempt to use the outdated Docker credentials when
+pinning the project Snapshot, and hence fail.</p>
+</div></div></div>
 ]]></content>
     </entry>
     <entry>
