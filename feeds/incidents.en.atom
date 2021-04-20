@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-04-19T00:04:39.255Z</updated>
+    <updated>2021-04-20T14:46:54.972Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Errors creating project Snapshots]]></title>
+        <id>https://status.stenci.la/incidents/0d06cd64</id>
+        <link href="https://status.stenci.la/incidents/0d06cd64"/>
+        <updated>2021-04-20T14:43:29.191Z</updated>
+        <content type="html"><![CDATA[<p>Under investigation.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cluster maintenance]]></title>
         <id>https://status.stenci.la/incidents/083a237b</id>

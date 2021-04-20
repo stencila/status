@@ -4,10 +4,19 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Mon, 19 Apr 2021 00:04:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Apr 2021 14:46:54 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Errors creating project Snapshots]]></title>
+            <link>https://status.stenci.la/incidents/0d06cd64</link>
+            <guid>https://status.stenci.la/incidents/0d06cd64</guid>
+            <pubDate>Tue, 20 Apr 2021 14:43:29 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Under investigation.</p>
+<!--- language code: en -->
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Cluster maintenance]]></title>
             <link>https://status.stenci.la/incidents/083a237b</link>
