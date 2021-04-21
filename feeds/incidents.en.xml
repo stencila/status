@@ -4,7 +4,7 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Tue, 20 Apr 2021 21:49:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Apr 2021 01:01:43 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
