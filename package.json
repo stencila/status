@@ -25,6 +25,9 @@
   "renovate": {
     "extends": [
       "@stencila"
+    ],
+    "ignoreDeps": [
+      "@babel/preset-env"
     ]
   }
 }
