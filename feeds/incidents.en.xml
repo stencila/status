@@ -4,10 +4,27 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Wed, 21 Apr 2021 03:01:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 May 2021 19:33:11 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Stencila Hub is unreachable]]></title>
+            <link>https://status.stenci.la/incidents/7556e102</link>
+            <guid>https://status.stenci.la/incidents/7556e102</guid>
+            <pubDate>Mon, 03 May 2021 18:40:25 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Server returns a 502 error</p>
+<!--- language code: en -->
+<div class="update-block">
+          <div class="update-block-date">2021-05-03T19:16:54.777Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>Incident has been resolved. We're monitoring the system and will shortly update
+this entry with a detailed report on the cause of the problem.</p>
+</div></div></div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Errors creating project Snapshots]]></title>
             <link>https://status.stenci.la/incidents/0d06cd64</link>

@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-04-21T03:01:35.172Z</updated>
+    <updated>2021-05-03T19:33:11.632Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Stencila Hub is unreachable]]></title>
+        <id>https://status.stenci.la/incidents/7556e102</id>
+        <link href="https://status.stenci.la/incidents/7556e102"/>
+        <updated>2021-05-03T18:40:25.284Z</updated>
+        <content type="html"><![CDATA[<p>Server returns a 502 error</p>
+<!--- language code: en -->
+<div class="update-block">
+          <div class="update-block-date">2021-05-03T19:16:54.777Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>Incident has been resolved. We're monitoring the system and will shortly update
+this entry with a detailed report on the cause of the problem.</p>
+</div></div></div>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Errors creating project Snapshots]]></title>
         <id>https://status.stenci.la/incidents/0d06cd64</id>
