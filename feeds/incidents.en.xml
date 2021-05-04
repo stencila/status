@@ -4,7 +4,7 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Mon, 03 May 2021 22:33:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 May 2021 01:10:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
@@ -13,15 +13,28 @@
             <link>https://status.stenci.la/incidents/7556e102</link>
             <guid>https://status.stenci.la/incidents/7556e102</guid>
             <pubDate>Mon, 03 May 2021 18:40:25 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Server returns a 502 error</p>
+            <content:encoded><![CDATA[<p>Attempting to visit Stencila Hub results in a <code>502 Error</code>.</p>
 <!--- language code: en -->
 <div class="update-block">
           <div class="update-block-date">2021-05-03T19:16:54.777Z</div>
           <div class="update-block-content">
-            <div class="update-block-title">Resolved</div>
+            <div class="update-block-title">Monitoring</div>
             <div class="update-block-body">
 <p>Incident has been resolved. We're monitoring the system and will shortly update
 this entry with a detailed report on the cause of the problem.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-05-03T22:51:55.840Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>In order to start up, Stencila Hub depends on a connection to a NFS data storage service.
+Due to a lost connection with the data store, the Hub experienced errors triggering a
+Kubernetes to automatically restart the <code>manager</code> (Hub) service.</p>
+<p>However the <code>storage</code> service, despite not reporting any errors, was unable to be attached
+to the new <code>manager</code> pod, and thus prevented <code>manager</code> from starting up.</p>
+<p>After manually deleting and recreating the the <code>storage</code> service instance,
+the <code>manager</code> service was able to establish a connection and successfully start up again.</p>
 </div></div></div>
 ]]></content:encoded>
         </item>
