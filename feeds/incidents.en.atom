@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-05-12T02:06:50.902Z</updated>
+    <updated>2021-05-15T02:11:16.299Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
