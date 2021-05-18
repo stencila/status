@@ -2,18 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-05-18T21:33:09.764Z</updated>
+    <updated>2021-05-18T23:23:00.937Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
     <entry>
         <title type="html"><![CDATA[Slow session start up times]]></title>
-        <id>https://status.stenci.la/incidents/5bf631a5</id>
-        <link href="https://status.stenci.la/incidents/5bf631a5"/>
+        <id>https://status.stenci.la/incidents/fa73f960</id>
+        <link href="https://status.stenci.la/incidents/fa73f960"/>
         <updated>2021-05-18T21:30:32.457Z</updated>
         <content type="html"><![CDATA[<p>Our monitoring is showing slower than normal start up times for session jobs. We're currently investigating.</p>
 <!--- language code: en -->
+<div class="update-block">
+          <div class="update-block-date">2021-05-18T23:17:16.732Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>The root cause of this incident was not found. Logs indicated issues with workers connecting to the <code>broker</code> service. The broker pod was deleted (using <code>kubectrl delete pod</code> which automatically recreates a new one). We also deleted the single <code>worker</code> pod running at the time. This resolved the issue and monitoring is showing normal event processing by the <code>overseer</code> service.</p>
+</div></div></div>
 ]]></content>
     </entry>
     <entry>
