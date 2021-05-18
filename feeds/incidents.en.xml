@@ -4,10 +4,19 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Sat, 15 May 2021 02:11:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 May 2021 21:33:09 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Slow session start up times]]></title>
+            <link>https://status.stenci.la/incidents/5bf631a5</link>
+            <guid>https://status.stenci.la/incidents/5bf631a5</guid>
+            <pubDate>Tue, 18 May 2021 21:30:32 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Our monitoring is showing slower than normal start up times for session jobs. We're currently investigating.</p>
+<!--- language code: en -->
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Stencila Hub is unreachable]]></title>
             <link>https://status.stenci.la/incidents/7556e102</link>

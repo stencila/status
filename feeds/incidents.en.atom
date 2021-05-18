@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-05-15T02:11:16.299Z</updated>
+    <updated>2021-05-18T21:33:09.764Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Slow session start up times]]></title>
+        <id>https://status.stenci.la/incidents/5bf631a5</id>
+        <link href="https://status.stenci.la/incidents/5bf631a5"/>
+        <updated>2021-05-18T21:30:32.457Z</updated>
+        <content type="html"><![CDATA[<p>Our monitoring is showing slower than normal start up times for session jobs. We're currently investigating.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stencila Hub is unreachable]]></title>
         <id>https://status.stenci.la/incidents/7556e102</id>
