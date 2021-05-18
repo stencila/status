@@ -30,7 +30,8 @@ See the [docs](https://docs.statusfy.co/guide/incidents) and the previous incide
 Then to deploy the new report,
 
 ```sh
-git commit -m "Add incident report on..."
+git add content
+git commit -m "Add incident report"
 git push
 ```
 
