@@ -4,10 +4,19 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Sat, 22 May 2021 01:25:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 May 2021 19:37:54 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Snapshot failures]]></title>
+            <link>https://status.stenci.la/incidents/8a0c687e</link>
+            <guid>https://status.stenci.la/incidents/8a0c687e</guid>
+            <pubDate>Tue, 25 May 2021 19:37:20 GMT</pubDate>
+            <content:encoded><![CDATA[<p>There have been several Sentry exception reports related to the creation of snapshots. We are currently investigating.</p>
+<!--- language code: en -->
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Slow session start up times]]></title>
             <link>https://status.stenci.la/incidents/fa73f960</link>

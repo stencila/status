@@ -1,0 +1,1 @@
+{"id":"8a0c687e","title":"Snapshot failures","date":"2021-05-25T19:37:20.706Z","modified":"2021-05-25T19:37:41.054Z","scheduled":null,"severity":"partial-outage","affectedsystems":["workers"],"resolved":false,"content":"<p>There have been several Sentry exception reports related to the creation of snapshots. We are currently investigating.</p>\n<!--- language code: en -->\n"}
