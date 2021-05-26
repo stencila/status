@@ -6,6 +6,7 @@ pool:
 
 jobs:
   - job: Publish
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
     steps:
       - script: |
           set -e
