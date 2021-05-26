@@ -2,27 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-05-25T20:49:36.244Z</updated>
+    <updated>2021-05-26T00:16:06.856Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
-    <entry>
-        <title type="html"><![CDATA[Snapshot failures]]></title>
-        <id>https://status.stenci.la/incidents/8a0c687e</id>
-        <link href="https://status.stenci.la/incidents/8a0c687e"/>
-        <updated>2021-05-25T19:37:20.706Z</updated>
-        <content type="html"><![CDATA[<p>There have been several Sentry exception reports related to the creation of snapshots. We are currently investigating.</p>
-<!--- language code: en -->
-<div class="update-block">
-          <div class="update-block-date">2021-05-25T20:47:20.389Z</div>
-          <div class="update-block-content">
-            <div class="update-block-title">Resolved</div>
-            <div class="update-block-body">
-<p>This appears to be resolved. We are monitoring affected systems closely and investigating the root cause. Further updates to follow.</p>
-</div></div></div>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Slow session start up times]]></title>
         <id>https://status.stenci.la/incidents/fa73f960</id>
