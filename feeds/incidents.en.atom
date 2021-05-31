@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.stenci.la</id>
     <title>Stencila Status</title>
-    <updated>2021-05-27T18:53:00.449Z</updated>
+    <updated>2021-05-31T07:55:59.296Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.stenci.la"/>
     <link rel="self" href="https://status.stenci.la/feeds/incidents.en.atom"/>
     <subtitle>Status reports for Stencila</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Slower than normal times for project archiving]]></title>
+        <id>https://status.stenci.la/incidents/df45426a</id>
+        <link href="https://status.stenci.la/incidents/df45426a"/>
+        <updated>2021-05-31T07:55:26.080Z</updated>
+        <content type="html"><![CDATA[<p>There are slower than normal times, and some failures, when archiving projects during snapshots. We are currently working to fix the issue. There may be partial outages of some services during this time.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Snapshot failures]]></title>
         <id>https://status.stenci.la/incidents/8a0c687e</id>

@@ -4,10 +4,19 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Thu, 27 May 2021 18:53:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 May 2021 07:55:59 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Slower than normal times for project archiving]]></title>
+            <link>https://status.stenci.la/incidents/df45426a</link>
+            <guid>https://status.stenci.la/incidents/df45426a</guid>
+            <pubDate>Mon, 31 May 2021 07:55:26 GMT</pubDate>
+            <content:encoded><![CDATA[<p>There are slower than normal times, and some failures, when archiving projects during snapshots. We are currently working to fix the issue. There may be partial outages of some services during this time.</p>
+<!--- language code: en -->
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Snapshot failures]]></title>
             <link>https://status.stenci.la/incidents/8a0c687e</link>
