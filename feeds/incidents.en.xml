@@ -4,7 +4,7 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Mon, 31 May 2021 07:55:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 May 2021 08:40:16 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,13 @@
             <pubDate>Mon, 31 May 2021 07:55:26 GMT</pubDate>
             <content:encoded><![CDATA[<p>There are slower than normal times, and some failures, when archiving projects during snapshots. We are currently working to fix the issue. There may be partial outages of some services during this time.</p>
 <!--- language code: en -->
+<div class="update-block">
+          <div class="update-block-date">2021-05-31T08:35:03.130Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>This issue has been resolved. It was related to a failure to mount a cloud storage bucket for snapshot archiving. This issue is reoccurring, for unknown reasons, or causes. We are looking into a longer term fix.</p>
+</div></div></div>
 ]]></content:encoded>
         </item>
         <item>
