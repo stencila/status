@@ -4,10 +4,19 @@
         <title>Stencila Status</title>
         <link>https://status.stenci.la</link>
         <description>Status reports for Stencila</description>
-        <lastBuildDate>Wed, 03 Nov 2021 03:54:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Nov 2021 18:10:07 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.stenci.la/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Large scale outage of Google Cloud Platform hosted sites]]></title>
+            <link>https://status.stenci.la/incidents/43c2540a</link>
+            <guid>https://status.stenci.la/incidents/43c2540a</guid>
+            <pubDate>Tue, 16 Nov 2021 18:03:16 GMT</pubDate>
+            <content:encoded><![CDATA[<p>There is currently an outage of many (all?) Google Cloud Platform (GCP) hosted sites including high profile sites like spotify.com and etsy.com, as well as http://hub.stenci.la. We have tried to resolve the issue ourselves, but it appear to be out of our control, and we will wait for a fix from GCP.</p>
+<!--- language code: en -->
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Slower than normal times for project archiving]]></title>
             <link>https://status.stenci.la/incidents/df45426a</link>
